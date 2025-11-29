@@ -5,3 +5,8 @@
 # React Router
 /.react-router/
 /build/
+.direnv
+
+## Panda
+styled-system
+styled-system-studio

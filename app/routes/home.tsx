@@ -1,13 +1,15 @@
+import { Button } from "components/ui/button/button";
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
 
-export function meta({}: Route.MetaArgs) {
-  return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
-  ];
+export function meta({ }: Route.MetaArgs) {
+	return [
+		{ title: "muzzle" },
+		{ name: "description", content: "test" },
+	];
 }
 
 export default function Home() {
-  return <Welcome />;
+	return (
+		<Button>test button</Button>
+	);
 }
